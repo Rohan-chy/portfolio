@@ -9,11 +9,11 @@ const About = () => {
         {/* Text Section */}
         <div className="flex flex-col justify-center items-start gap-4 space-y-4">
           <div className="text-left flex flex-col justify-center items-start gap-4">
-            <p className="text-xl">Hello World! My name is</p>
-            <h1 className="text-4xl font-bold">Tribhuban Chaudhary</h1>
-            <p className="text-lg text-gray-600">UI/UX Designer</p>
+            <p className="text-[36px] text-[#373737]">Hello World! My name is</p>
+            <h1 className="text-[60px] font-bold">Tribhuban Chaudhary</h1>
+            <p className="text-[24px] text-gray-600">UI/UX Designer</p>
           </div>
-          <button className="mt-4 flex items-center px-6 py-3 bg-gray-800 text-white text-lg rounded-lg shadow hover:bg-gray-700">
+          <button className="mt-4 flex items-center px-6 py-3 bg-[#373737] text-white text-[24px] rounded-lg shadow hover:bg-gray-700">
             Download CV <FiDownload className="ml-2" />
           </button>
         </div>

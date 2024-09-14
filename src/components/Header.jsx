@@ -8,13 +8,13 @@ const Header = () => {
           {/* Logo */}
           <Link to='/'>
             <div className="flex items-center gap-2 cursor-pointer">
-                <img src={pic} alt="logo" />
-                <span className="text-gray-800 text-2xl font-bold">TC</span>
+                <img src={pic} alt="logo"/>
+                <span className="text-gray-800 text-[24px] font-bold">TC</span>
               </div>
           </Link>
   
           {/* Navigation Links */}
-          <div className="hidden md:flex space-x-8 text-xl font-semibold">
+          <div className="hidden md:flex space-x-8 text-[24px] font-semibold">
               <NavLink
                   to="/about"
                   className={({ isActive }) =>

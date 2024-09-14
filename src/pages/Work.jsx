@@ -18,7 +18,7 @@ const Work = () => {
             {/* Left side content */}
             <div className="space-y-6">
               <div className="space-y-4">
-                <h3 className="text-4xl font-bold">Edtech Website</h3>
+                <h3 className="text-[32px] font-bold">Edtech Website</h3>
                 <p className="text-lg text-gray-500">
                   kids edtech website for exploring hobby & art
                 </p>
